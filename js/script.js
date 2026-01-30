@@ -1,9 +1,9 @@
-document.getElementById("botaoEnviar").addEventListener("click", validaFormulario)
+document.querySelector("#botaoEnviar").addEventListener("click", validaFormulario)
 
 function validaFormulario() {
-    if (document.getElementById("nome").value != "" &&
-        document.getElementById("email").value != "" &&
-        document.getElementById("telefone").value != "") {
+    if (document.querySelector("#nome").value != "" &&
+        document.querySelector("#email").value != "" &&
+        document.querySelector("#telefone").value != "") {
 
         alert("Prontinho! você receberá as novidades por email.")
     } else {
